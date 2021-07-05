@@ -106,7 +106,7 @@ deploy:
   type: ''
 
 resume:
-  name: YOUR NAME
+  name: Tran Tan Dat
   jobtitle: Your Job Title
   contact:
     - icon: fa-envelope

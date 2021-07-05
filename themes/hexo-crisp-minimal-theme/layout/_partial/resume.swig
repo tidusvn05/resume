@@ -23,26 +23,7 @@
     </div>
   </header>
 
-  <section id="education">
-    <div class="section-title">
-      Education
-    </div>
-    <div class="section-content">
-      {% for edu in config.resume.education %}
-      <div class="block">
-        <div class="block-title">
-          {{ edu.university }}
-        </div>
-        <div class="block-subtitle">
-          {{ edu.duration }} | {{ edu.location }}
-        </div>
-        <div class="block-content">
-          {{ edu.major }}
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </section>
+  
 
   <section id="skills">
     <div class="section-title">
@@ -104,6 +85,27 @@
     </div>
   </section>
 
+  <section id="education">
+    <div class="section-title">
+      Education
+    </div>
+    <div class="section-content">
+      {% for edu in config.resume.education %}
+      <div class="block">
+        <div class="block-title">
+          {{ edu.university }}
+        </div>
+        <div class="block-subtitle">
+          {{ edu.duration }} | {{ edu.location }}
+        </div>
+        <div class="block-content">
+          {{ edu.major }}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  
   <section id="languages">
     <div class="section-title">
       Languages

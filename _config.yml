@@ -107,7 +107,8 @@ deploy:
 
 resume:
   name: Tran Tan Dat
-  jobtitle: All things that project need, I will trying!
+  jobtitle: I will try even if I don't have a chance!
+  jobtitle2: All things that project need, I will trying!
   contact:
     - icon: fa-envelope
       text: tidusvn05@gmail.com

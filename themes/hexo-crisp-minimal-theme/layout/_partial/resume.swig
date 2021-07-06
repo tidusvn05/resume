@@ -77,6 +77,9 @@
         <div class="block-subtitle">
           {{ project.contribution }}
         </div>
+        <div class="block-subtitle">
+          {{ project.aa }}
+        </div>
         <div class="block-content">
           {{ project.description }}
         </div>
@@ -105,7 +108,7 @@
       {% endfor %}
     </div>
   </section>
-  
+
   <section id="languages">
     <div class="section-title">
       Languages

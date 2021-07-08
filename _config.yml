@@ -505,7 +505,7 @@ resume:
         - Design, implement, maintenance infrastructure. <br/>
         - Deploy to server.<br/>
       "
-      technologies: Nuxtjs, Nodejs, Laravel, Lumen, Laravel-admin, WebdriverIO, Gitlab CI/CD, Bottender, PWA, Adobe XD,...
+      technologies: Nuxtjs, Nodejs, Laravel, Lumen, Laravel-admin, WebdriverIO, Gitlab CI/CD, Bottender, PWA, Adobe XD, AWS, Mongo Atlas,...
       achievements: "
         - Released main version. <br/>
         - Already revenue and investors. <br/>

@@ -23,69 +23,21 @@
     </div>
   </header>
 
-  
-
-  <section id="skills">
+  <section id="summaries">
     <div class="section-title">
-      Skills
+      Professional Summary
     </div>
-    <div class="section-content">
-      {% for skill in config.resume.skills %}
-      <div class="block">
-        <div class="block-title">
-          {{ skill.title }}
-        </div>
-        <div class="block-content">
-          {{ skill.items }}
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </section>
+    <ul class="section-flex">
+      {% for item in config.resume.professional_summaries %}
+      <li class="block-content">
+        {{ item.value }}
 
-  <section id="experience">
-    <div class="section-title">
-      Experience
-    </div>
-    <div class="section-content">
-      {% for exp in config.resume.experience %}
-      <div class="block">
-        <div class="block-title">
-          {{ exp.title }}
-        </div>
-        <div class="block-subtitle">
-          {{ exp.duration }} | {{ exp.company }}
-        </div>
-        <div class="block-content">
-          {{ exp.description }}
-        </div>
-      </div>
+        {% for sub_value in item.sub_values %}
+          <div class="block-content"> - {{ sub_value }} </div>
+        {% endfor %}
+      </li>
       {% endfor %}
-    </div>
-  </section>
-
-  <section id="projects">
-    <div class="section-title">
-      Projects
-    </div>
-    <div class="section-content">
-      {% for project in config.resume.projects %}
-      <div class="block">
-        <div class="block-title">
-          {{ project.name }}
-        </div>
-        <div class="block-subtitle">
-          {{ project.contribution }}
-        </div>
-        <div class="block-subtitle">
-          {{ project.aa }}
-        </div>
-        <div class="block-content">
-          {{ project.description }}
-        </div>
-      </div>
-      {% endfor %}
-    </div>
+    </ul>
   </section>
 
   <section id="education">
@@ -126,4 +78,66 @@
       {% endfor %}
     </div>
   </section>
+
+  <section id="skills">
+    <div class="section-title">
+      Skills
+    </div>
+    <div class="section-content">
+      {% for skill in config.resume.skills %}
+      <div class="block">
+        <div class="block-title">
+          {{ skill.title }}
+        </div>
+        <div class="block-content">
+          {{ skill.items }}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="section-title">
+      Experience
+    </div>
+    <div class="section-content">
+      {% for exp in config.resume.experience %}
+      <div class="block">
+        <div class="block-title">
+          {{ exp.title }}
+        </div>
+        <div class="block-subtitle">
+          {{ exp.duration }} | {{ exp.company }}
+        </div>
+        <div class="block-content">
+          {% for desc in exp.descriptions %}
+            - {{ desc }} <br/>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+
+  <section id="projects">
+    <div class="section-title">
+      Projects
+    </div>
+    <div class="section-content">
+      {% for project in config.resume.projects %}
+      <table class='project'>
+        {% for key, val in project %}
+          <tr {% if loop.first %} class="first"{% endif %} >
+            <td>{{ key|capitalize }}</td>
+            <td>{{ val }}</td>
+          </tr>
+        {% endfor %}
+      </table>
+      {% endfor %}
+    </div>
+  </section>
+
+  
 </div>

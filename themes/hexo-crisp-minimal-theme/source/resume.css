@@ -151,3 +151,27 @@ footer {
   line-height: 3rem;
   margin-top: 1rem;
   margin-bottom: 1rem; }
+
+
+table.project {
+  border-collapse: collapse;
+  width: 650px;
+  border: 1px solid #ddd;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+table.project th, td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+  word-break: break-all;
+}
+table.project td:nth-child(1) {  
+  width: 100px;
+  color: #808385;
+}
+
+table.project tr.first td {
+  font-weight: bold;
+}

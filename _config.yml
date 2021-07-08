@@ -120,49 +120,426 @@ resume:
     - icon: fa-github
       text: Github
       link: https://github.com/tidusvn05
-  
+  professional_summaries:
+    - value: 12+ years of working experience in the software field, special in application of web technologies.
+    - value: Experienced in analysis design and architect system.
+    - value: Experienced in finding and resolving software problems.
+    - value: Experienced in managing a team of development and deployment system for customers from start to finish projects.
+    - value: Experienced in developing automated testing on web browser (E2E Testing).
+    - value: 'Experienced in software development model:'
+      sub_values:
+        - Requirement analysis
+        - Planing 
+        - Software design such as architectural design
+        - Infrastructure design and build
+        - Software development
+        - Testing
+        - Deployment
+        - Maintenance
+    - value: Can Ability to self-learn and adapt to new technologies quickly.
+    - value: Can ability write tool to improve productivity or useful utilities. 
+    - value: Have love for technologies.
+
   skills:
     - title: PHP
-      items: Laravel Framework, Lumen API Framework, Codeigniter, Zend Framework,...
+      items: Laravel, Lumen API Framework, Codeigniter, Yii, Zend,...
     - title: Nodejs
       items: Express webframework, botframework v3,LINE Bottender,..
     - title: Frontend
       items: Basic HTML5/CSS3 and CSS Frameworks, Nuxtjs framework, Basic ReactJs, ReactNative,...
-  experience:
-    - title: Freelancer and Startup with 123maizo
-      duration: March 2009 - Jul 2010
-      description: 'I and my friend develop a website, platform connect seller and buyer.\
-      <br/>ssss\
-      <br/>ssss'
-    - title: PHP Developer
-      duration: March 2010 - 
-      company: JV-IT., JSC
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    - title: Job Title 2
-      duration: Apr 2013 - Mar 2016
-      company: Your 2nd, Inc.
-      description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    - title: Job Title 3
-      duration: Dec 2021 - Mar 2012
-      company: JV-IT Techs
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  projects:
-    - name: 123Group with 123Maizo, 123Tivi, 123Softwave
-      description: 
-      contribution: Co-Founder.
-    - name: Project Name 1
-      description: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      contribution: Contributor.
-    - name: Project Name 2
-      description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      contribution: Creator and maintainer.
+    - title: Ruby
+      items: Ruby on rails framework (v2, v3).
+    - title: Python
+      items: Basic Level, can write some tools.
+    - title: Databases
+      items: Mysql, MongoDB, Redis
+    - title: OS
+      items: Window, Macos, Ubuntu, CentOS, Alpine
+    - title: Devops
+      items: GitLab CI/CD, Ansible, Deployer, Terraform, Jenkins, Capistrano, Chef,...
+    - title: Cloud Providers
+      items: AWS (VPC, Networks, EC2, Cloudfront, S3,..), GoogleCloud (Compute), Digital Ocean, Vurlt, Sakura Hosting, 
+    - title: Design Tools
+      items: Adobe XD, ,
+    - title: Web technologies
+      items: Client-Server model, HTTP, CDN, Cache, Queue, Cookie, Session,...
+  
   education:
     - university: Nong Lam University
       duration: Jul 2004 - Dec 2009
       location: Ho Chi Minh City
       major: Geographic Information System with Java.
+
   languages:
-    - name: English
-      proficiency: Enough for technical research like Reading, Writing. Bad for Listening, Speaking.
-    - name: Vietnamese
-      proficiency: Native
+  - name: English
+    proficiency: Enough for technical research like Reading, Writing. Bad for Listening, Speaking.
+  - name: Vietnamese
+    proficiency: Native
+
+  experience:
+    - title: Develop 123maizo
+      duration: March 2009 - Jul 2010
+      company: Self Business
+      descriptions: 
+        - Develop and operate a platform help connect seller and buyer.
+
+    - title: PHP Developer
+      duration:  March 2010 - 2011
+      company: JV-IT., JSC
+      descriptions: 
+        - Develop Admin Site on an existing project.
+
+    - title: Team Leader for Appirits's Lab
+      duration: 2011 - 2016
+      company: JV-IT., JSC, 
+      descriptions: 
+        - A outsourcing team for a client from Japan (Appirits Inc.).
+        - 'Manage a team to do some works: localize, develop, publish, maintenance game on markets: Vietnamese, Thailand, EU, Taiwan, Brazil'
+    - title: Co-Founder, Backend Developer
+      duration: 2015 - 2018
+      company: JV-IT., JSC, Idoo Asia (another company of JV-IT., JSC)
+      descriptions: 
+        - Manage team on Idoo Asia, to develop web and mobile app.
+        - Manage IT-Support team in JV-IT., JSC.
+        - Do some projects to demo for customers to demonstrate capacity for contract signing.
+        - Cooperate with CEO to do some private projects.
+        
+    - title: CTO, Technical Architect
+      duration: 2017 - Now
+      company: JV-IT., JSC, JV-IT Holdings (Headquarter at Japan)
+      descriptions:
+        - 'Build and training some teams: E2E Automation Test, Frontend, Nodejs.'
+        - Design and build system.
+        - Technical Support for some projects.
+        - Do some projects to demo for customers to demonstrate capacity for contract signing.
+        - Cooperate with CEO to do some private projects.
+        - Join to "Core Member", manage and operate company.
+
+  projects:
+    - name: 123Maizo
+      # company: Self Business
+      customer: Self Business
+      description: "- Platform help connect seller and buyer. <br/> 
+        - Sub sites like: , 123Tivi, 123Softwave,... help SEO on google (backlink, traffic)."
+      role: Co-Founder & Developer
+      size: 2
+      # contribution: Co-Founder.
+      technologies: PHP Zend Framework, Jquery
+      achievements: "- Monthly bandwidth over 100GB, limit of hosting at that time. <br/> 
+        - Failed for revenue seeking, can't live on in long time.<br/>
+        - This is good lesson learned."
+
+    - name: Vinapoint Card
+      company: JV-IT., JSC
+      # customer: Self Business
+      description: Collect point system based on card at coffee shop, restaurant,...
+      role: PHP developer
+      size: 2
+      contribution: "- Build  new functions on Admin Site."
+      technologies: PHP Zend Framework, Jquery
+
+    - name: "\"Einherjar ~ The Viking’s Blood\" Game"
+      company: JV-IT., JSC
+      customer: Appirits Inc.
+      description: Localize, develop new features, publish and maintenance the game.
+      role: Team Leader, Ruby on rails developer
+      size: 5
+      contribution: "
+        - Setup some web and game server.
+        - Build team to work.<br/>
+        - Seek publishers at Vietnam to publish game.<br/>
+        - Learn Ruby on rails and training to other members.<br/>
+        - Make tool to improve productivity when localize.<br/>
+        - Make API to connect to publisher.<br/>
+        - Develop new features: Realtime chat, Social Connect, more in-game functions,...<br/>
+        - Develop tool for Game Master to operation game.<br/>
+        - Make tool to merge servers.<br/>
+        - Implement payment gateways for Vietnamese market: FPT Gate, Mobile Cards, SMS, Gift Card.<br/>
+        - Implement payment gateways for International market: Paypal, Centili, Cherry credit, Karmacoin,...<br/>
+        - Update game & events to please gamers and bring revenue.<br/>
+        - Find and fix security bugs. 
+        - Monitor and perform maintenance for the game.<br/>
+        - Weekly Report to client.
+      "
+      technologies: Ruby on rails 2.3, Adobe flex, Mysql, Memcached, Git, PHP, HTML/JS/CSS.
+      achievements: "
+        - Published game “Dong Mau Anh Hung” for Vietnam market. <br/> 
+        - Published game “Einherjar ~ The Viking’s Blood” - English version of “Dong Mau Anh Hung” for international market.<br/>
+        "
+      reference: https://appirits.com/en/einherjar.html
+
+
+    - name: "\"Shikihime\" Games"
+      company: JV-IT., JSC
+      customer: Appirits Inc.
+      description: Localize, develop new features, publish and maintenance the game.
+      role: Team Leader, Ruby on rails developer
+      size: 10
+      contribution: "
+        - Setup some web and game server.
+        - Make API to connect to publisher.<br/>
+        - Develop new features: Realtime chat, Social Connect, more in-game functions,...<br/>
+        - Develop tool for Game Master to operation game.<br/>
+        - Make tool to merge servers.<br/>
+        - Implement payment gateways for International market: Paypal, Centili, Cherry credit, Karmacoin,...<br/>
+        - Update game & events to please gamers and bring revenue.<br/>
+        - Find and fix security bugs.
+        - Monitor and perform maintenance for the game.<br/>
+        - Weekly Report to client.
+      "
+      technologies: Ruby on rails 2.3, Adobe flex, Mysql, Memcached, Git, PHP, HTML/JS/CSS.
+      achievements: "
+        - Published game “Dai Chien My Nu” for Vietnam market. <br/> 
+        - Published game “Shikihime Zoushi” (English version) for international market.<br/>        
+        - Published game “Shikihime Zoushi” (Thai version) for Thailand market.<br/>
+        - Published game “Shikihime Zoushi” (English version) on 6waves social, Facebook App.<br/>
+        - Published game “Shikihime Zoushi” (EU version) for Gamigo publisher.<br/>
+        - Published game “Vuon My Nu” for Vietnam market. <br/> 
+        - Published game “Shikihime Garden” (English version) for international market.<br/>
+        "
+      reference: https://appirits.com/en/shikihime_zoushi.html
+    
+    - name: "\"Einherjar Chronicles\" Game"
+      company: JV-IT., JSC
+      customer: Appirits Inc.
+      description: Localize, develop new features, publish and maintenance the game.
+      role: Team Leader, Ruby on rails developer
+      size: 5
+      contribution: "
+        - Seek publishers at Vietnam to publish game.<br/>
+        - Setup some web and game server.
+        - Make API to connect to publisher.<br/>
+        - Develop new features<br/>
+        - Make tool to merge servers.<br/>
+        - Implement payment gateways for International market: Paypal, Centili, Cherry credit, Karmacoin,...<br/>
+        - Maintenance game “Einherjar Chronicles” for Taiwan market.<br/>
+        - Update game & events to please gamers and bring revenue.<br/>
+        - Find and fix security bugs.
+        - Monitor and perform maintenance for the game.<br/>
+        - Weekly Report to client.
+      "
+      technologies: Ruby on rails 3.2, Adobe flex, Mysql, Redis, Faye for Ruby, Git, PHP, HTML/JS/CSS.
+      achievements: "
+        - Published game “Moc De Online” for Vietnam market. <br/> 
+        - Published game “Einherjar Chronicles” (English version) for international market.<br/>
+        "
+      reference: https://appirits.com/en/shikihime_zoushi.html
+
+    - name: "\"Tower of Goetia\" Game"
+      company: JV-IT., JSC
+      customer: Appirits Inc.
+      description: Localize, develop new features, publish and maintenance the game.
+      role: Ruby on rails developer
+      size: 5
+      contribution: "
+        - Seek publishers at Vietnam to publish game.<br/>
+        - Setup some web and game server.
+        - Make API to connect to publisher.<br/>
+        - Develop new features<br/>
+        - Make tool to merge servers.<br/>
+        - Implement payment gateways for International market: Paypal, Centili, Cherry credit, Karmacoin,...<br/>
+        - Update game & events to please gamers and bring revenue.<br/>
+        - Find and fix security bugs.
+        - Monitor and perform maintenance for the game.<br/>
+        - Weekly Report to client.
+      "
+      technologies: Ruby on rails 3.2, Adobe flex, Mysql, Redis, Faye for Ruby, Git, PHP, HTML/JS/CSS.
+      achievements: "
+        - Published game “Tower of Goetia” (English version) for international market.<br/>
+        "
+      reference: https://appirits.com/en/goetia.html
+
+    - name: "Crawler Data"
+      company: Private Project with CEO of JV-IT., JSC
+      customer: Japan
+      description: Collect Company info on specific websites.
+      role: Developer
+      size: 1
+      contribution: "
+        - Create PHP Library to handle crawl data by template: Single page, Pagination, Category, Custom.<br/>
+        - Create \"Scalable Crawler Framework\" on Nodejs to handle large data site.<br/>
+        - Make website to tracking result data.<br/>
+        - Build solution \"Rotate Proxy\" from free proxies: Collect, Check, Pick.<br/>
+      "
+      technologies: PHP, Nodejs, Mysql, MongoDB, Queue, Proxy  
+      achievements: "
+        - Collected data over 12 websites<br/>
+        - Over 2 million data.
+        "
+
+    - name: "Many Demo for Customer"
+      company:   JV-IT., JSC
+      customer: Japan
+      description: Make demo about new tech to intro to customers.
+      role: Developer
+      size: 1
+      contribution: "
+        - Make demo products from customer's request.<br/>
+        - Make demo products from customer's idea.<br/>
+        - Make demo products from CEO's idea.<br/>
+        - Make demo products to introduce new tech.<br/>
+      "
+      technologies: WebRTC, LiveStreaming, Moodle, Reactjs, ReactNative, Laravel, Nodejs.
+      achievements: "
+        - Collected data over 12 websites<br/>
+        - Over 2 million data.
+        "
+
+    - name: " \"EpAPP\" mobile application"
+      company: "Cooperation between Vietnam and \"Forecast Earthquake Center\" of Japan"
+      description: application help forecast earthquake at japan.
+      role: Backend Developer, Team Leader
+      size: 4 (CEO, Backend, IOS, Adroid)
+      contribution: "
+        - Setup infra on AWS.<br/>
+        - Design system.<br/>
+        - Make API for clients.<br/>
+        - Implement payment function (monthly subscription) on Google, Apple.<br/>
+        - Submit Apps to Apple and Google store.<br/>
+        - Do test on Android Phone, Apple Phone, Apple Watch.<br/>
+        - Maintenance.<br/>
+      "
+      technologies: Laravel, AWS
+      achievements: "
+        - Over 15K users installed.  <br/>
+        - Stable run from release to now.<br/>
+        - Lost little time for maintenance.<br/>
+        - Have monthly revenue.
+        " 
+      reference: "
+        - Android: https://play.google.com/store/apps/details?id=com.vinajapan.epapp&hl=ja <br/>
+        - IOS: https://apps.apple.com/jp/app/地震サーチ/id1191417880
+      "
+
+    - name: "Bizbot"
+      company: ""
+      description: Botchat utilities for business man.
+      role: Developer
+      size: 1
+      contribution: "
+        - Setup infra on AWS.<br/>
+        - Design system.<br/>
+        - Develop chatbot features: <br/>
+          &nbsp;&nbsp;  + Implement crawler to get some base data from public site.<br/>
+          &nbsp;&nbsp;  + Sync with google calendar <br/>
+          &nbsp;&nbsp;  + Create/Delete/Open task from chatbot <br/>
+          &nbsp;&nbsp;  + Show List task from chatbot <br/>
+          &nbsp;&nbsp;  + Alarm for task when near start time.<br/>
+          &nbsp;&nbsp;  + Alarm when have free time.<br/>
+          &nbsp;&nbsp;  + Automatic create task from mailbox<br/>
+          &nbsp;&nbsp;  + Automatic create task by template when copy/paster from other source<br/>
+          &nbsp;&nbsp;  + Summary report every morning<br/>
+          &nbsp;&nbsp;  + Send weather forecast at 06:00 PM <br/>
+          &nbsp;&nbsp;  + Make Connect API, used for project monitoring alarm exception.<br/>
+        - Build Admin for manage functions.<br/>
+        - Infrastructure Automation using ansible. <br/>
+        - Deployment Automation using deployer, pm2. <br/>
+        - Deploy to chat platforms <br/>
+        
+      "
+      technologies: Nodejs, Botbuilder v3, WitAI, AWS, MongoDB, Redis, Queue, Ansible, Deployer
+      achievements: "
+        - Release test version on LINE, Messenger, Slack<br/>
+        - Release production version on Skype<br/>
+        - Demo to many customer<br/>
+        - Daily use by CEO, CEO's Friends, registered user<br/>
+      "
+    - name: "JVCoin (Companymile v1)"
+      company: "JV-IT., JSC"
+      duration: 3 month on 2018
+      description: "Loyalty program website for internal company."
+      role: Advisor, Blockchain Developer.
+      size: 4
+      contribution: "
+        - Intro & training blockchain for team. (Ethereum)<br/>
+        - Design system to connect blockchain.<br/>
+        - Build and organize the blockchain operation mechanism for the project.<br/>
+        - Help team about blockchain.<br/>
+        - Build admin site for HR team.<br/>
+        - Deploy to server.<br/>
+      "
+      technologies: ETH Smart Contract, Web3js, Truffle, Nodejs, Java.
+      achievements: "
+        - Released on ethereum's testnet.<br/>
+        - Staff have fun, more motivation.<br/>
+        - Some customer appreciate.<br/>
+      "
+    - name: "JVCoin (Companymile v2)"
+      company: "JV-IT., JSC"
+      duration: 6 month on 2018, 2019
+      description: "Customer source for some japanese's companies"
+      role: Fullstack Developer.
+      size: 1
+      contribution: "
+        - Customize for specific company requirements.<br/>
+        - Deploy to server.
+      "
+      technologies: ETH Smart Contract, Web3js, Truffle, Nodejs, Java.
+      achievements: "
+        - Trusted and used by customers.<br/>
+        - Identified this projects has potential.<br/>
+      "
+
+    - name: "Companymile (v3)"
+      company: "JV-IT., JSC"
+      customer: "JV-IT Holdings"
+      duration: 2019 to present
+      description: "A cloud platform help increase communication, productivity, motinvation to work employee of companies."
+      role: Team Leader, Technical Architect, Developer
+      size: 7 (first is 1)
+      contribution: "
+        - Redesign the system from scratch.<br/>
+        - Scalable and easy to migrate to complete microservices model.<br/>
+        - Develop webapp service using Nuxtjs.<br/>
+        - Develop main api service using Lumen.<br/>
+        - Develop admin service (for client) using Expressjs.<br/>
+        - Develop internal admin service using Laravel-admin.<br/>
+        - Maintenance landing page service using Wordpress.<br/>
+        - Maintenance register service using Laravel.<br/>
+        - Build E2E automation test team using WebdriverIO.<br/>
+        - Integrate some CI/CD using gitlab CI/CD.<br/>
+        	&nbsp;&nbsp;+ When developer push source to specific branch like devtest, staging, production. System will automatic deploy to respective environment, then run e2e automation test.<br/>
+          &nbsp;&nbsp;+ To production environment, need manual action to deploy.<br/>
+        - Develop application on LINE chat platform.<br/>
+        - Implement payment gateway.<br/>
+        - Design, implement, maintenance infrastructure. <br/>
+        - Deploy to server.<br/>
+      "
+      technologies: Nuxtjs, Nodejs, Laravel, Lumen, Laravel-admin, WebdriverIO, Gitlab CI/CD, Bottender, PWA, Adobe XD,...
+      achievements: "
+        - Released main version. <br/>
+        - Already revenue and investors. <br/>
+      "
+      reference: "
+        - https://companymile.net <br/>
+      "
+
+    - name: "Auto Export Image from PSD Files"
+      company: "JV-IT., JSC"
+      customer: "Internal"
+      duration: "on 2020 for detail:<br/>
+        - 1 day for demo<br/>
+        - 6 day for coding <br/>
+        - 1 week extend features and implement.<br/> 
+      " 
+      description: "A tool help increase speed work for other team."
+      role: Developer
+      size: 1
+      contribution: "
+        - Proactively propose and implement this tool that use less resources  and reduce working time.<br/>
+        - Features include:<br/>
+        &nbsp;&nbsp;  + Process many file pdf in many directories (Total over 1000 files).<br/>
+        &nbsp;&nbsp;  + Export to png file based on some rules: single or grouped layers.<br/>
+        &nbsp;&nbsp;  + Extract japanese text on image to excel file. <br/>
+        &nbsp;&nbsp;  + Highlight above japanese text on image, and sign label on excel file to staff (don't know japanese) has easy use.<br/>
+        &nbsp;&nbsp;  + Pick color of text and put to excel file.<br/>
+      "
+      technologies: Python, OpenCV, psd-tools.
+      achievements: "
+        - Used over 30 staff relate to require work. <br/>
+        - Reduce recruitment cost, also time for HR team. <br/>
+      "
+      reference: "
+        - A Sample highlight image: https://github.com/tidusvn05/JVIT-WS-Automation-Tool-EXTRACT-IMAGES-FROM-PSD-FILES/blob/master/usePython/outs/demo2/sub1/4141851/MAPPING_OUTLINE.png <br/>
+        - Public source here (my company's workshop): https://github.com/tidusvn05/JVIT-WS-Automation-Tool-EXTRACT-IMAGES-FROM-PSD-FILES
+      "
